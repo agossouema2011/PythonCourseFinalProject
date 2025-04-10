@@ -13,39 +13,6 @@ We convert the dataset annoations into a coco JSON file which we use for the ana
 The coco JSON file containing the dataset annotations has a structure as follows ( This is just an example of an image annotation):
 ![image](https://github.com/user-attachments/assets/299e9f4f-35c0-42a0-baa0-1a58fabc4e3d)
 
-'
-
-{
-   "images": [
-    {
-      "id": 397133,      
-      "file_name": "000000397133.jpg",
-      "width": 640,
-      "height": 427
-    }
-  ],
-  "annotations": [
-    {
-      "iscrowd": 0,
-      "ignore":0,      
-      "image_id": 397133,
-      "bbox": [213.0, 216.0, 119.0, 120.0],
-      "area": 14280.0,
-      "segmentation": [],
-      "category_id": 1, 
-      "id": 1
-    }
-  ],
-  "categories": [
-    {
-      "supercategory": "Polyp",
-      "id": 1,
-      "name": "Polyp",
-      
-    }
-  ]
-}
-'
 
 ### Objective
 The objective of this code is to provide a rapid analysis of the dataset and help have an overview of its contents.
