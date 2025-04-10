@@ -4,10 +4,7 @@ This repository contains the final project for the course
 
 ## Description
 ### Background
-For my PhD reserach, I working with deep learning method for pathology detection in capsule endoscopy using bounding boxes annotations.
-One of the open source dataset I am using is Kvasir Capsule (https://osf.io/dv2ag/). Kvasir Capsule is a large capsule endoscopy dataset collected from examinations at Hospitals in Norway. Kvasir-Capsule consists of 117 videos which can be used to extract a total of 4,741,504 image frames. They have labelled and medically verified 47,238 frames with a bounding box around detected anomalies from 14 different classes of findings..
-For my work I consider images from the eight most representative pathology classes amounting to a total of 3,365 images with their ground truth annotations.
-We convert the dataset annoations into a coco JSON file which we use for the analysis in this code.
+For my PhD research, I am working with deep learning method for pathology detection in capsule endoscopy using bounding boxes annotations. One of the open-source datasets I am using is Kvasir Capsule (https://osf.io/dv2ag/). Kvasir Capsule is a large capsule endoscopy dataset collected from examinations at Hospitals in Norway. Kvasir-Capsule consists of 117 videos which can be used to extract a total of 4,741,504 image frames. They have labelled and medically verified 47,238 frames with a bounding box around detected anomalies from 14 different classes of findings.. For my work I consider images from the eight most representative pathology classes amounting to a total of 3,365 images with their ground truth annotations. We convert the dataset annotation into a coco JSON file which we use for the analysis in this code.
 
 ### Structure of the coco JSON file
 The coco JSON file containing the dataset annotations has a structure as follows ( This is just an example of an image annotation):
