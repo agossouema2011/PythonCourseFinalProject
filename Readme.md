@@ -14,9 +14,9 @@ The coco JSON file containing the dataset annotations has a structure as follows
 
 ### Objective
 The objective of this code is to provide a rapid analysis of the dataset and help have an overview of its contents.
-This code can be used to get an overview of the content of any dataset which coco annotation JSON file is provide.
+This code can be used to get an overview of the content of any dataset which coco annotation JSON file is provided.
 We mainly analyse the coco JSON file containing the annotations for the 8 pathological classes we considered, and provide the following:
-1) The total Number of image
+1) The total Number of images
 2) The annotations per category (class)
 3) The histogram of number of annotations per pathology
 4) The list of images having a given pathology
