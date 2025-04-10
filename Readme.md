@@ -11,7 +11,7 @@ We convert the dataset annoations into a coco JSON file which we use for the ana
 
 ### Structure of the coco JSON file
 The coco JSON file containing the dataset annotations has a structure as follows ( This is just an example of an image annotation):
-Markup :  `
+'
 
 {
    "images": [
@@ -43,7 +43,7 @@ Markup :  `
     }
   ]
 }
-`
+'
 
 ### Objective
 The objective of this code is to provide a rapid analysis of the dataset and help have an overview of its contents.
