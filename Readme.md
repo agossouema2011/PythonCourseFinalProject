@@ -11,6 +11,7 @@ We convert the dataset annoations into a coco JSON file which we use for the ana
 
 ### Structure of the coco JSON file
 The coco JSON file containing the dataset annotations has a structure as follows ( This is just an example of an image annotation):
+Markup :  `code()`
 {
    "images": [
     {
@@ -26,11 +27,10 @@ The coco JSON file containing the dataset annotations has a structure as follows
       "ignore":0,      
       "image_id": 397133,
       "bbox": [213.0, 216.0, 119.0, 120.0],
-      "area": 702.105,
+      "area": 14280.0,
       "segmentation": [],
       "category_id": 1, 
       "id": 1
-      
     }
   ],
   "categories": [
@@ -42,7 +42,8 @@ The coco JSON file containing the dataset annotations has a structure as follows
     }
   ]
 }
-
+Markup : ```json
+         ```
 ### Objective
 The objective of this code is to provide a rapid analysis of the dataset and help have an overview of its contents.
 This code can be used to get an overview of the content of any dataset which coco annotation JSON file is provide.
