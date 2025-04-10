@@ -30,8 +30,8 @@ Install few libraries for python such as:
 - install numpy
   
 ### Run the code
-Markup : <details>
-           <p>python jsonfile.py</p>
-         </details>
+```shell script
+           python jsonfile.py
+    ```
 
 
