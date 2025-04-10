@@ -10,6 +10,38 @@ For my work I consider images from the eight most representative pathology class
 We convert the dataset annoations into a coco JSON file which we use for the analysis in this code.
 
 ### Structure of the coco JSON file
+The coco JSON file containing the dataset annotations has a structure as follows ( This is just an example of an image annotation):
+{
+   "images": [
+    {
+      "id": 397133,      
+      "file_name": "000000397133.jpg",
+      "width": 640,
+      "height": 427
+    }
+  ],
+  "annotations": [
+    {
+      "iscrowd": 0,
+      "ignore":0,      
+      "image_id": 397133,
+      "bbox": [213.0, 216.0, 119.0, 120.0],
+      "area": 702.105,
+      "segmentation": [],
+      "category_id": 1, 
+      "id": 1
+      
+    }
+  ],
+  "categories": [
+    {
+      "supercategory": "Polyp",
+      "id": 1,
+      "name": "Polyp",
+      
+    }
+  ]
+}
 
 ### Objective
 The objective of this code is to provide a rapid analysis of the dataset and help have an overview of its contents.
