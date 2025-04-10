@@ -31,7 +31,8 @@ Install few libraries for python such as:
   
 ### Run the code
 ```shell script
-           python jsonfile.py ```
+           python jsonfile.py
+```
 
 
 **Note: You can use this code and adapt it to analyse any dataset whose coco annotation JSON file you have**
