@@ -30,5 +30,8 @@ Install few libraries for python such as:
 - install numpy
   
 ### Run the code
-python jsonfile.py
+Markup : <details>
+           <p>python jsonfile.py</p>
+         </details>
+
 
