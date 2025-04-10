@@ -11,6 +11,8 @@ We convert the dataset annoations into a coco JSON file which we use for the ana
 
 ### Structure of the coco JSON file
 The coco JSON file containing the dataset annotations has a structure as follows ( This is just an example of an image annotation):
+![image](https://github.com/user-attachments/assets/299e9f4f-35c0-42a0-baa0-1a58fabc4e3d)
+
 '
 
 {
